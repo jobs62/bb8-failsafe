@@ -1,0 +1,13 @@
+[package]
+name = "bb8-failsafe"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-trait = "0.1"
+failsafe = "1.1"
+bb8 = "0.8"
