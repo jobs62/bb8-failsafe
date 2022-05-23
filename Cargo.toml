@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 license = "MIT"
 readme = "README.md"
-description = "thin wapper of failsafe-rs to provide cirbuit breaker captilites to bb8"
+description = "thin wapper of failsafe-rs to provide circuit breaker captilites to bb8"
 repository = "https://github.com/jobs62/bb8-failsafe"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
