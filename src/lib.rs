@@ -50,3 +50,83 @@ where
         self.connection_manager.has_broken(conn)
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use std::sync::{Arc, Mutex};
+    use crate::FailsafeConnectionManager;
+    use bb8::ManageConnection;
+    use async_trait::async_trait;
+    use tokio::runtime::Runtime;
+
+    #[derive(Clone)]
+    struct FoobarConnectionManager {
+        counter: Arc<Mutex<u32>>,
+    }
+    
+    impl FoobarConnectionManager {
+        fn new() -> FoobarConnectionManager {
+            FoobarConnectionManager {
+                counter: Arc::new(Mutex::new(0)),
+            }
+        }
+    }
+    
+    #[async_trait]
+    impl bb8::ManageConnection for FoobarConnectionManager {
+        type Connection = ();
+        type Error = ();
+    
+        async fn connect(&self) -> Result<Self::Connection, Self::Error> {
+            let mut guard = self.counter.lock().unwrap();
+            *guard = *guard + 1;
+            if *guard > 3 {
+                return Err(());
+            }
+            return Ok(());
+        }
+    
+        async fn is_valid(&self, _conn: &mut Self::Connection) -> Result<(), Self::Error> {
+            Ok(())
+        }
+    
+        fn has_broken(&self, _conn: &mut Self::Connection) -> bool {
+            false
+        }
+    }
+
+    #[test]
+    fn simple() {
+        let circuit_breaker = failsafe::Config::new().build();
+        let foomanager = FoobarConnectionManager::new();
+
+        let rt  = Runtime::new().unwrap();
+        let failsafemanager = FailsafeConnectionManager::new(foomanager, circuit_breaker);
+
+        rt.block_on(async {
+            for _ in 0..3 {
+                assert!(failsafemanager.connect().await.is_ok());
+            }
+
+            for _ in 4..5 {
+                match failsafemanager.connect().await {
+                    Ok(_) => panic!(),
+                    Err(e) => match e {
+                        failsafe::Error::Rejected => panic!(),
+                        failsafe::Error::Inner(_) => {},
+                    },
+                }
+            }
+
+            for _ in 5..10 {
+                match failsafemanager.connect().await {
+                    Ok(_) => panic!(),
+                    Err(e) => match e {
+                        failsafe::Error::Rejected => {},
+                        failsafe::Error::Inner(_) => (),
+                    },
+                }
+            }
+        });
+    }
+}
