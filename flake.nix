@@ -54,6 +54,12 @@
         apps.default = flake-utils.lib.mkLib {
             drv = bb8-failsafe;
         };
+
+        devShells.default = craneLib.devShell {
+            packages = [
+                pkgs.rust-analyzer
+            ];
+        };
       }
     );
 }
