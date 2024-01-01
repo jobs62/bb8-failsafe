@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.5](https://github.com/jobs62/bb8-failsafe/compare/v0.1.4...v0.1.5) - 2024-01-01
+
+### Other
+- *(deps)* bump async-trait from 0.1.75 to 0.1.76 ([#8](https://github.com/jobs62/bb8-failsafe/pull/8))
+
 ## [0.1.4](https://github.com/jobs62/bb8-failsafe/compare/v0.1.3...v0.1.4) - 2023-12-27
 
 ### Other
