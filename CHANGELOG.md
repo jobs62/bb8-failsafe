@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.7](https://github.com/jobs62/bb8-failsafe/compare/v0.1.6...v0.1.7) - 2024-02-05
+
+### Other
+- *(deps)* bump tokio from 1.35.1 to 1.36.0 ([#13](https://github.com/jobs62/bb8-failsafe/pull/13))
+- *(deps)* bump bb8 from 0.8.1 to 0.8.3 ([#12](https://github.com/jobs62/bb8-failsafe/pull/12))
+
 ## [0.1.6](https://github.com/jobs62/bb8-failsafe/compare/v0.1.5...v0.1.6) - 2024-01-09
 
 ### Other
