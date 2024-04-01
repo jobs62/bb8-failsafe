@@ -64,7 +64,7 @@ dependencies = [
 
 [[package]]
 name = "bb8-failsafe"
-version = "0.1.9"
+version = "0.1.10"
 dependencies = [
  "async-trait",
  "bb8",
