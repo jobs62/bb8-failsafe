@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.11](https://github.com/jobs62/bb8-failsafe/compare/v0.1.10...v0.1.11) - 2024-05-31
+
+### Other
+- *(deps)* update rust crate tokio to v1.38.0
+- *(deps)* update actions/checkout action to v4
+- Add renovate.json
+
 ## [0.1.10](https://github.com/jobs62/bb8-failsafe/compare/v0.1.9...v0.1.10) - 2024-04-01
 
 ### Other
