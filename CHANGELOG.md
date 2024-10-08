@@ -6,6 +6,49 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.15](https://github.com/jobs62/bb8-failsafe/compare/v0.1.14...v0.1.15) - 2024-10-08
+
+### Other
+
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+- *(deps)* lock file maintenance
+
 ## [0.1.14](https://github.com/jobs62/bb8-failsafe/compare/v0.1.13...v0.1.14) - 2024-08-01
 
 ### Other
