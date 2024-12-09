@@ -22,7 +22,6 @@
 //!     }
 //! }
 //! ```
-use async_trait::async_trait;
 pub use failsafe;
 use failsafe::futures::CircuitBreaker;
 
@@ -51,7 +50,6 @@ where
     }
 }
 
-#[async_trait]
 impl<T, U> bb8::ManageConnection for FailsafeConnectionManager<T, U>
 where
     T: bb8::ManageConnection,
@@ -80,7 +78,6 @@ where
 #[cfg(test)]
 mod tests {
     use crate::FailsafeConnectionManager;
-    use async_trait::async_trait;
     use bb8::ManageConnection;
     use std::sync::{Arc, Mutex};
     use tokio::runtime::Runtime;
@@ -98,7 +95,6 @@ mod tests {
         }
     }
 
-    #[async_trait]
     impl bb8::ManageConnection for FoobarConnectionManager {
         type Connection = ();
         type Error = ();
