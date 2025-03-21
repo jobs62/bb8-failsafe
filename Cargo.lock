@@ -51,7 +51,7 @@ dependencies = [
 
 [[package]]
 name = "bb8-failsafe"
-version = "0.1.17"
+version = "0.1.18"
 dependencies = [
  "bb8",
  "failsafe",
