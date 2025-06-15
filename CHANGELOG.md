@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.20](https://github.com/jobs62/bb8-failsafe/compare/v0.1.19...v0.1.20) - 2025-06-15
+
+### Other
+
+- *(deps)* lock file maintenance ([#936](https://github.com/jobs62/bb8-failsafe/pull/936))
+- *(deps)* lock file maintenance ([#935](https://github.com/jobs62/bb8-failsafe/pull/935))
+- *(deps)* lock file maintenance ([#934](https://github.com/jobs62/bb8-failsafe/pull/934))
+- *(deps)* lock file maintenance ([#933](https://github.com/jobs62/bb8-failsafe/pull/933))
+
 ## [0.1.19](https://github.com/jobs62/bb8-failsafe/compare/v0.1.18...v0.1.19) - 2025-06-14
 
 ### Other
