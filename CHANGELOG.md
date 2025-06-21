@@ -6,6 +6,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.20](https://github.com/jobs62/bb8-failsafe/compare/v0.1.19...v0.1.20) - 2025-06-21
+
+### Other
+
+- *(deps)* lock file maintenance ([#952](https://github.com/jobs62/bb8-failsafe/pull/952))
+- *(deps)* lock file maintenance ([#951](https://github.com/jobs62/bb8-failsafe/pull/951))
+- *(deps)* lock file maintenance ([#950](https://github.com/jobs62/bb8-failsafe/pull/950))
+- *(deps)* lock file maintenance ([#949](https://github.com/jobs62/bb8-failsafe/pull/949))
+- *(deps)* lock file maintenance ([#948](https://github.com/jobs62/bb8-failsafe/pull/948))
+- *(deps)* lock file maintenance ([#947](https://github.com/jobs62/bb8-failsafe/pull/947))
+- *(deps)* lock file maintenance ([#946](https://github.com/jobs62/bb8-failsafe/pull/946))
+- *(deps)* lock file maintenance ([#945](https://github.com/jobs62/bb8-failsafe/pull/945))
+- *(deps)* lock file maintenance ([#944](https://github.com/jobs62/bb8-failsafe/pull/944))
+- *(deps)* lock file maintenance ([#943](https://github.com/jobs62/bb8-failsafe/pull/943))
+- *(deps)* lock file maintenance ([#942](https://github.com/jobs62/bb8-failsafe/pull/942))
+- *(deps)* lock file maintenance ([#941](https://github.com/jobs62/bb8-failsafe/pull/941))
+- *(deps)* lock file maintenance ([#940](https://github.com/jobs62/bb8-failsafe/pull/940))
+- *(deps)* lock file maintenance ([#939](https://github.com/jobs62/bb8-failsafe/pull/939))
+- *(deps)* lock file maintenance ([#938](https://github.com/jobs62/bb8-failsafe/pull/938))
+- *(deps)* lock file maintenance ([#937](https://github.com/jobs62/bb8-failsafe/pull/937))
+- *(deps)* lock file maintenance ([#936](https://github.com/jobs62/bb8-failsafe/pull/936))
+- *(deps)* lock file maintenance ([#935](https://github.com/jobs62/bb8-failsafe/pull/935))
+- *(deps)* lock file maintenance ([#934](https://github.com/jobs62/bb8-failsafe/pull/934))
+- *(deps)* lock file maintenance ([#933](https://github.com/jobs62/bb8-failsafe/pull/933))
+
 ## [0.1.19](https://github.com/jobs62/bb8-failsafe/compare/v0.1.18...v0.1.19) - 2025-06-14
 
 ### Other
