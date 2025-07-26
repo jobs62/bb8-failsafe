@@ -1,4 +1,52 @@
 # Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [0.1.21](https://github.com/jobs62/bb8-failsafe/compare/v0.1.20...v0.1.21) - 2025-07-26
+
+### Other
+
+- *(deps)* lock file maintenance ([#1038](https://github.com/jobs62/bb8-failsafe/pull/1038))
+- *(deps)* lock file maintenance ([#1037](https://github.com/jobs62/bb8-failsafe/pull/1037))
+- *(deps)* lock file maintenance ([#1036](https://github.com/jobs62/bb8-failsafe/pull/1036))
+- *(deps)* lock file maintenance ([#1035](https://github.com/jobs62/bb8-failsafe/pull/1035))
+- *(deps)* lock file maintenance ([#1034](https://github.com/jobs62/bb8-failsafe/pull/1034))
+- *(deps)* lock file maintenance ([#1033](https://github.com/jobs62/bb8-failsafe/pull/1033))
+- *(deps)* lock file maintenance ([#1032](https://github.com/jobs62/bb8-failsafe/pull/1032))
+- *(deps)* lock file maintenance ([#1031](https://github.com/jobs62/bb8-failsafe/pull/1031))
+- *(deps)* lock file maintenance ([#1030](https://github.com/jobs62/bb8-failsafe/pull/1030))
+- *(deps)* lock file maintenance ([#1029](https://github.com/jobs62/bb8-failsafe/pull/1029))
+- *(deps)* lock file maintenance ([#1028](https://github.com/jobs62/bb8-failsafe/pull/1028))
+- *(deps)* lock file maintenance ([#1027](https://github.com/jobs62/bb8-failsafe/pull/1027))
+- *(deps)* lock file maintenance ([#1026](https://github.com/jobs62/bb8-failsafe/pull/1026))
+- *(deps)* lock file maintenance ([#1025](https://github.com/jobs62/bb8-failsafe/pull/1025))
+- *(deps)* lock file maintenance ([#1024](https://github.com/jobs62/bb8-failsafe/pull/1024))
+- *(deps)* lock file maintenance ([#1023](https://github.com/jobs62/bb8-failsafe/pull/1023))
+- *(deps)* lock file maintenance ([#1022](https://github.com/jobs62/bb8-failsafe/pull/1022))
+- *(deps)* lock file maintenance ([#1021](https://github.com/jobs62/bb8-failsafe/pull/1021))
+- *(deps)* lock file maintenance ([#1020](https://github.com/jobs62/bb8-failsafe/pull/1020))
+- *(deps)* lock file maintenance ([#1019](https://github.com/jobs62/bb8-failsafe/pull/1019))
+- *(deps)* lock file maintenance ([#1018](https://github.com/jobs62/bb8-failsafe/pull/1018))
+- *(deps)* lock file maintenance ([#1017](https://github.com/jobs62/bb8-failsafe/pull/1017))
+- *(deps)* lock file maintenance ([#1016](https://github.com/jobs62/bb8-failsafe/pull/1016))
+- *(deps)* lock file maintenance ([#1015](https://github.com/jobs62/bb8-failsafe/pull/1015))
+- *(deps)* lock file maintenance ([#1014](https://github.com/jobs62/bb8-failsafe/pull/1014))
+- *(deps)* lock file maintenance ([#1013](https://github.com/jobs62/bb8-failsafe/pull/1013))
+- *(deps)* lock file maintenance ([#1012](https://github.com/jobs62/bb8-failsafe/pull/1012))
+- *(deps)* lock file maintenance ([#1011](https://github.com/jobs62/bb8-failsafe/pull/1011))
+- *(deps)* lock file maintenance ([#1010](https://github.com/jobs62/bb8-failsafe/pull/1010))
+- *(deps)* lock file maintenance ([#1009](https://github.com/jobs62/bb8-failsafe/pull/1009))
+- *(deps)* lock file maintenance ([#1008](https://github.com/jobs62/bb8-failsafe/pull/1008))
+- *(deps)* lock file maintenance ([#1007](https://github.com/jobs62/bb8-failsafe/pull/1007))
+- *(deps)* lock file maintenance ([#1006](https://github.com/jobs62/bb8-failsafe/pull/1006))
+- *(deps)* lock file maintenance ([#1005](https://github.com/jobs62/bb8-failsafe/pull/1005))
+- *(deps)* lock file maintenance ([#1003](https://github.com/jobs62/bb8-failsafe/pull/1003))
+# Changelog
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
