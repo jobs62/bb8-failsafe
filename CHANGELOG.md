@@ -6,6 +6,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.22](https://github.com/jobs62/bb8-failsafe/compare/v0.1.21...v0.1.22) - 2025-10-25
+
+### Other
+
+- *(deps)* lock file maintenance ([#1162](https://github.com/jobs62/bb8-failsafe/pull/1162))
+- *(deps)* lock file maintenance ([#1161](https://github.com/jobs62/bb8-failsafe/pull/1161))
+- *(deps)* lock file maintenance ([#1160](https://github.com/jobs62/bb8-failsafe/pull/1160))
+- *(deps)* lock file maintenance ([#1159](https://github.com/jobs62/bb8-failsafe/pull/1159))
+- *(deps)* lock file maintenance ([#1158](https://github.com/jobs62/bb8-failsafe/pull/1158))
+- *(deps)* lock file maintenance ([#1157](https://github.com/jobs62/bb8-failsafe/pull/1157))
+- *(deps)* lock file maintenance ([#1156](https://github.com/jobs62/bb8-failsafe/pull/1156))
+- *(deps)* lock file maintenance ([#1155](https://github.com/jobs62/bb8-failsafe/pull/1155))
+- *(deps)* lock file maintenance ([#1154](https://github.com/jobs62/bb8-failsafe/pull/1154))
+- *(deps)* lock file maintenance ([#1153](https://github.com/jobs62/bb8-failsafe/pull/1153))
+- *(deps)* lock file maintenance ([#1152](https://github.com/jobs62/bb8-failsafe/pull/1152))
+- *(deps)* lock file maintenance ([#1151](https://github.com/jobs62/bb8-failsafe/pull/1151))
+- *(deps)* lock file maintenance
+- Bump tokio from 1.47.1 to 1.48.0
+- *(deps)* lock file maintenance ([#1147](https://github.com/jobs62/bb8-failsafe/pull/1147))
+- *(deps)* lock file maintenance ([#1146](https://github.com/jobs62/bb8-failsafe/pull/1146))
+- *(deps)* lock file maintenance ([#1144](https://github.com/jobs62/bb8-failsafe/pull/1144))
+
 ## [0.1.21](https://github.com/jobs62/bb8-failsafe/compare/v0.1.20...v0.1.21) - 2025-09-24
 
 ### Other
